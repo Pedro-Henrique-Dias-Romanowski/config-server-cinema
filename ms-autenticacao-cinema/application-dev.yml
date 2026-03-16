@@ -33,6 +33,9 @@ eureka:
     service-url:
       defaultZone: ${EUREKA_CLIENT_SERVICEURL_DEFAULTZONE:http://localhost:8761/eureka}
 spring:
+  config:
+    activate:
+      on-profile: dev
   application:
     name: ms-autenticacao-cinema
   datasource:
