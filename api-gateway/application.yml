@@ -19,7 +19,7 @@ management:
       endpoint: ${SPRING_ZIPKIN_BASE_URL:http://zipkin:9411}/api/v2/spans
 spring:
   application:
-    name: ms-api-gateway
+    name: api-gateway
   cloud:
     gateway:
       routes:
