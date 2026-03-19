@@ -43,8 +43,7 @@ spring:
     activate:
       on-profile: dev
   application:
-    name:
-      ms-gerenciamento-clientes
+    name: ms-gerenciamento-clientes
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/cinema_clientes

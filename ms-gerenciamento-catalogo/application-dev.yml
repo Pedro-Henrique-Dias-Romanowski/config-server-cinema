@@ -26,8 +26,7 @@ spring:
     activate:
       on-profile: dev
   application:
-    name:
-      ms-gerenciamento-catalogo
+    name: ms-gerenciamento-catalogo
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/cinema_catalogo

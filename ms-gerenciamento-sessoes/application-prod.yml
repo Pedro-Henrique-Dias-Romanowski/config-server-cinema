@@ -29,8 +29,7 @@ spring:
     activate:
       on-profile: prod
   application:
-    name:
-      ms-gerenciamento-sessoes
+    name:ms-gerenciamento-sessoes
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://${DB_HOST_SESSOES}:${DB_PORT}/${DB_NAME_SESSOES}

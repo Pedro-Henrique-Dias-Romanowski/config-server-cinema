@@ -38,8 +38,7 @@ spring:
     activate:
       on-profile: prod
   application:
-    name:
-      ms-gerenciamento-clientes
+    name: ms-gerenciamento-clientes
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://${DB_HOST_CLIENTES}:${DB_PORT}/${DB_NAME_CLIENTES}
